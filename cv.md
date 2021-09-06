@@ -10,6 +10,7 @@
 * **Phone:**
 
     +38 099 7480948
+
 ## About me
 
 I am 23yo currently a second-year master's student in CS at Sumy State University. I came to RollingScopesSchool cause it is a great opportunity to learn something new and as for me has a great environment to study things I'm interested in.
