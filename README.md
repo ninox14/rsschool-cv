@@ -1,2 +1,1 @@
-# rsschool-cv
-repository for my CV
+https://ninox14.github.io/rsschool-cv/cv
