@@ -190,3 +190,10 @@ a {
     margin-top: 40px;
     margin-bottom: 60px;
 }
+
+.article__text {
+    margin-bottom: 5px;
+}
+.article__list {
+    margin: 10px 0 10px;
+}
