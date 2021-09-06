@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+/* Container */
+
+.container {
+    width: 100%;
+    max-width: 2550px;
+    padding: 0 215px;
+    margin: 0 auto;
+}
