@@ -1,1 +1,1 @@
-https://ninox14.github.io/rsschool-cv/cv
+https://ninox14.github.io/rsschool-cv/
