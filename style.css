@@ -247,6 +247,12 @@ a {
     fill: #d8d8d8;
     transition: fill .2s linear;
 }
-.footer__link:hover path{
+.footer__icon {
+    filter: invert(94%) sepia(0%) saturate(4529%) hue-rotate(338deg) brightness(129%) contrast(69%);
+    transition: filter .2s linear;
+}
+.footer__link:hover path,
+.footer__link:hover .footer__icon{
     fill: #529ce0;
+    filter: invert(53%) sepia(88%) saturate(370%) hue-rotate(172deg) brightness(92%) contrast(91%);
 }
