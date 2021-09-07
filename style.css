@@ -35,6 +35,9 @@ a {
     font-size: 18px;
     font-weight: 500;
 }
+.large {
+    font-weight: 500;
+}
 .wrapper {
     padding: 0 80px 0 60px;
 }
@@ -195,9 +198,13 @@ a {
 }
 
 .article__content {
-    padding: 0 80px 0 60px;
+    padding: 0 40px 0 60px;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+.article__content-flex {
+    display: flex;
+    justify-content: space-between;
 }
 .article__content-wider {
     padding-right: 0;
@@ -207,6 +214,9 @@ a {
     border: 1px #d8d8d8 solid ;
     border-radius: 3px;
 }
+.article__item {
+    word-wrap: break-word;
+}
 .article__text {
     margin-bottom: 5px;
 }
@@ -215,4 +225,5 @@ a {
 }
 .article__list-smal {
     margin: 0;
+
 }
