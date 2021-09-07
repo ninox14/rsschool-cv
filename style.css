@@ -64,7 +64,6 @@ a {
 .left-side {
     width: 40%;
     color: #f5f5f5;
-    flex-basis: 30%;
 }
 
 .left-side__photo {
@@ -106,7 +105,7 @@ a {
 
 /* Section  */
 .section__container {
-    padding: 20px 80px;
+    padding: 20px 80px 0;
 }
 .section {
     background-color: #343945;
@@ -142,7 +141,6 @@ a {
 
 .right-side {
     width: 60%;
-    flex-basis: 30%;
 }
 
 /* Header */
@@ -230,15 +228,24 @@ a {
 .footer {
     background-color: #15181d;
     padding: 20px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f5f5f5;
 }
 .footer__svg {
     width: 40px;
     height: 40px;
 }
+.footer__svg-rs {
+    margin-top: 5px;
+    width: 80px;
+    height: auto;
+}
 .footer__svg path {
     fill: #d8d8d8;
     transition: fill .2s linear;
 }
-.footer__github-link:hover path{
+.footer__link:hover path{
     fill: #529ce0;
 }
