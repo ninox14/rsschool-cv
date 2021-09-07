@@ -38,9 +38,6 @@ a {
 .large {
     font-weight: 500;
 }
-.wrapper {
-    padding: 0 80px 0 60px;
-}
 
 /* Container */
 
@@ -151,6 +148,7 @@ a {
     flex-direction: column;
     margin-bottom: 70px;
     margin-top: 100px;
+    padding: 0 80px 0 60px;
 }
 
 .header__title {
