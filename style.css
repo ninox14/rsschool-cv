@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    background-color: #fbfbfb
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.italic {
+    font-style: italic;
+}
+.larger {
+    font-size: 18px;
+    font-weight: 500;
+}
+.large {
+    font-weight: 500;
+}
+.wrapper {
+    padding: 0 80px 0 60px;
+}
+
+/* Container */
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    /* padding: 0 10px; */
+    margin: 0 auto;
+}
+
+
+/* Two sides wrapper */
+
+.sides-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Left side */
+
+.left-side {
+    width: 40%;
+    color: #f5f5f5;
+}
+
+.left-side__photo {
+    margin: 0;
+}
+
+.left-side__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+}
+
+/* Section  header*/
+
+.section__header {
+    min-width: 100%;
+    background-color: #424753;
+}
+.section__title {
+    position: relative;
+    padding-left: 80px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.section__title:before {
+    content: "";
+    display: block;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 30px;
+    height: 100%;
+
+    background-color: #f2c100;
+}
+
+/* Section  */
+.section__container {
+    padding: 20px 80px 0;
+}
+.section {
+    background-color: #343945;
+    padding: 50px 0 30px;
+}
+.section-darker {
+    background-color: #2c323d;
+}
+.section-darkerer {
+    background-color: #1f242b;
+}
+
+
+.section__item  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.section__item:last-child {
+    margin-bottom: 0;
+}
+.section__link {
+    margin-top: 5px;
+    transition: color .2s linear;
+    color: lightblue;
+}
+.section__link:hover {
+    color: #de6f2c;
+}
+
+/* Right side */
+
+.right-side {
+    width: 60%;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
+
+.header__title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1.05;
+    margin-bottom: 10px;
+}
+.header__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/* Article */
+
+.article__header {
+    min-width: 100%;
+    background-color: #ebebeb;
+}
+.article__title {
+    padding-left: 60px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+
+}
+
+.article__title:before {
+    content: "";
+    display: block;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 30px;
+    height: 100%;
+
+    background-color: #f2c100;
+}
+
+.article__content {
+    padding: 0 40px 0 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.article__content-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.article__content-wider {
+    padding-right: 0;
+}
+.article__content pre {
+    margin: 0;
+    border: 1px #d8d8d8 solid ;
+    border-radius: 3px;
+}
+.article__item {
+    word-wrap: break-word;
+}
+.article__text {
+    margin-bottom: 5px;
+}
+.article__list {
+    margin: 10px 0 10px;
+}
+.article__list-smal {
+    margin: 0;
+
+}
+
+/* Footer */
+
+.footer {
+    background-color: #15181d;
+    padding: 20px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f5f5f5;
+}
+.footer__svg {
+    width: 40px;
+    height: 40px;
+}
+.footer__svg-rs {
+    margin-top: 5px;
+    width: 80px;
+    height: auto;
+}
+.footer__svg path {
+    fill: #d8d8d8;
+    transition: fill .2s linear;
+}
+.footer__icon {
+    filter: invert(94%) sepia(0%) saturate(4529%) hue-rotate(338deg) brightness(129%) contrast(69%);
+    transition: filter .2s linear;
+}
+.footer__link:hover path,
+.footer__link:hover .footer__icon{
+    fill: #529ce0;
+    filter: invert(53%) sepia(88%) saturate(370%) hue-rotate(172deg) brightness(92%) contrast(91%);
+}
