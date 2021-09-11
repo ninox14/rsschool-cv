@@ -255,3 +255,34 @@ a {
     fill: #529ce0;
     filter: invert(53%) sepia(88%) saturate(370%) hue-rotate(172deg) brightness(92%) contrast(91%);
 }
+
+
+
+
+
+
+
+/* Rs school svg junk */
+
+.st0{
+    fill: transparent;
+}
+.st1{
+    clip-path:url(#SVGID_2_)
+}
+.st2{
+    clip-path:url(#SVGID_4_)
+}
+.st3{
+    clip-path:url(#SVGID_6_)
+}
+.st4{
+    clip-path:url(#SVGID_8_)
+}
+
+.st7{
+    fill:none;
+    stroke: inherit;
+    stroke-width:4;
+    stroke-miterlimit:10
+}
